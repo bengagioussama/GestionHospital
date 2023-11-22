@@ -24,6 +24,19 @@ public class Test {
         Medecin m4 = new Medecin(123321123,"Tbib4","TBIB",1);
         Medecin m5 = new Medecin(123321123,"Tbib5","TBIB",1);
 
+        h.ajouterMedecin(m1);
+        h.ajouterMedecin(m2);
+        h.ajouterMedecin(m3);
+        h.ajouterMedecin(m4);
+        h.ajouterMedecin(m5);
+
+        h.ajouterPatient(m1,p1);
+        h.ajouterPatient(m2,p2);
+        h.ajouterPatient(m3,p3);
+        h.ajouterPatient(m4,p4);
+        h.ajouterPatient(m5,p5);
+
+
 
 
 

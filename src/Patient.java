@@ -39,11 +39,13 @@ public class Patient {
         this.prenom = prenom;
     }
     public String toString() {
-        return "Cin : " +cin+  " Nom : " + nom +  " Prenom " + prenom + " Num Securite Sociale " + numSecuriteSociale;
+        /*à completer*/
+        return "Cin : " +cin+  " Nom : " + nom +  " Prenom : " + prenom + " Num Securite Sociale : " + numSecuriteSociale;
     }
 
     @Override
     public boolean equals(Object obj) {
+        /*à completer*/
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Patient patient = (Patient) obj;

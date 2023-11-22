@@ -40,10 +40,12 @@ public class Medecin {
     }
 
     public String toString() {
+        /*à completer*/
         return "cin=" + cin + ", nom=" + nom + ", prenom=" + prenom + ", num Ordre=" + numOrdre + "]";
     }
 
     public boolean equals(Object obj) {
+        /*à completer*/
         if(obj == this)
             return true;
 
@@ -54,8 +56,5 @@ public class Medecin {
         return this.cin == m.getCin();
     }
 
-    public int hashCode() {
-        return Integer.valueOf(cin).hashCode();
-    }
 
 }

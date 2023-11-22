@@ -25,7 +25,6 @@ public class SetMedecins {
     }
     /* Avec l’api Stream */
     public TreeSet<Medecin> trierMedecins(){
-        return setM.stream()
-                .collect(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(m -> m.getNom()))));
+        return setM.stream().collect(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(m -> m.getNom()))));
     }
 }
